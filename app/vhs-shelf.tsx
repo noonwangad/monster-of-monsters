@@ -87,7 +87,7 @@ export default function VHSShelf() {
   return (
     <View style={[styles.root, { backgroundColor: colors.background }]}>
       <ImageBackground
-        source={require("@/assets/images/vhs-bg.png")}
+        source={require("@/assets/images/vhs-bg.jpg")}
         style={StyleSheet.absoluteFill}
         imageStyle={{ opacity: 0.25 }}
         resizeMode="cover"
