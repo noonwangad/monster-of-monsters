@@ -62,7 +62,7 @@ export default function DossierScreen() {
   return (
     <View style={[styles.root, { backgroundColor: colors.background }]}>
       <ImageBackground
-        source={require("@/assets/images/dossier-bg.png")}
+        source={require("@/assets/images/dossier-bg.jpg")}
         style={StyleSheet.absoluteFill}
         imageStyle={{ opacity: 0.18 }}
         resizeMode="cover"
