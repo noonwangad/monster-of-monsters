@@ -68,7 +68,7 @@ export default function MainMenu() {
   return (
     <View style={[styles.root, { backgroundColor: colors.background }]}>
       <ImageBackground
-        source={require("@/assets/images/vhs-bg.png")}
+        source={require("@/assets/images/vhs-bg.jpg")}
         style={styles.bgImage}
         imageStyle={styles.bgImageStyle}
         resizeMode="cover"
